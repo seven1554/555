@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>พิซซ่าเวียดนาม</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>พิซซ่าเวียดนาม</h1>
+      <p class="start-price">เริ่มต้นที่ 25 บาท</p>
+      <p class="subtitle">เลือกหน้าและซอสตามใจคุณ</p>
+    </div>
+
+    <h2>เลือกหน้า (2 หน้าแรกฟรี เฉพาะไส้ ≤ 5 บาท)</h2>
+    <form id="menuForm">
+      <div id="menuList" class="menu-list"></div>
+
+      <h3>เลือกซอส (ฟรี ไม่จำกัด)</h3>
+      <div id="sauceList" class="sauce-list">
+        <label><input type="checkbox" class="sauce" value="0" data-name="ซอสมะเขือเทศ"> ซอสมะเขือเทศ</label>
+        <label><input type="checkbox" class="sauce" value="0" data-name="ซอสพริก"> ซอสพริก</label>
+        <label><input type="checkbox" class="sauce" value="0" data-name="ซอสมายองเนส"> ซอสมายองเนส</label>
+        <label><input type="checkbox" class="sauce" value="0" data-name="ซอสพริกเผา"> ซอสพริกเผา</label>
+        <label><input type="checkbox" class="sauce" value="0" data-name="ซอสหมาล่า"> ซอสหมาล่า</label>
+      </div>
+
+      <div class="total">ราคารวม: <span id="totalPrice">25</span> บาท</div>
+
+      <div class="submit-wrapper">
+        <button type="button" id="submitOrder">ยืนยันสั่งซื้อ</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

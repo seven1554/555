@@ -1,0 +1,86 @@
+body {
+  background-color: #FFF9DB;
+  font-family: 'Sarabun', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 24px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border: 2px solid #FFD700;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #E53935;
+  margin-bottom: 4px;
+}
+
+.start-price {
+  font-size: 18px;
+  color: #FFA000;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: #FFCA28;
+  font-weight: 600;
+}
+
+h2, h3 {
+  color: #D32F2F;
+  margin-top: 20px;
+}
+
+.menu-list, .sauce-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.menu-item, .sauce-list label {
+  background: #FFF8E1;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: 500;
+  color: #D84315;
+}
+
+.total {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #C62828;
+  margin-top: 20px;
+}
+
+.submit-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #FFD54F;
+  color: #BF360C;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+button:hover {
+  background-color: #FFCA28;
+}
